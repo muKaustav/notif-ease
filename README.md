@@ -6,7 +6,7 @@
 
 ## 📚 | Introduction
 
-- notif-ease is an microserviced, scalable, highly available and highly performant notification service.
+- notif-ease is a microserviced, scalable, highly available and highly performant notification service.
 - It uses Apache Kafka as message queue for notification service.
 - Built on top of express framework.
 - It uses MongoDB as database.
