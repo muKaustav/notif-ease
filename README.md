@@ -1,6 +1,6 @@
 <h1 align="center">notif-ease: a notification service 🔔</h1>
 <p align = center>
-    <img alt="Project Logo" src="https://raw.githubusercontent.com/muKaustav/hostel-bazaar/main/assets/hbgithub.jpg" target="_blank" />
+    <img alt="Project Logo" src="https://github.com/muKaustav/notif-ease/blob/main/assets/notifease.jpg?raw=true" target="_blank" />
 </p>
 <h2 align='center'>A microserviced, scalable, highly available notification service.</h2><br/>
 
