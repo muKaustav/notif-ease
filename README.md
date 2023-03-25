@@ -21,7 +21,7 @@
 
 - Install Docker Desktop and NodeJS for a quick setup.
 
-- Pull kafka and zookeeper images from docker hub.
+- Pull kafka and zookeeper images from docker hub, then run the following commands to start the services.
 ```sh
 docker run --name zookeeper -p 2181:2181 zookeeper
 
