@@ -56,7 +56,7 @@ In summary, Kafka's strengths in handling high-throughput, scalability, fault-to
 ## 📘 | System Design Schematic
 
 <p align = center>
-    <img alt="getURL" src="https://raw.githubusercontent.com/muKaustav/notif-ease/main/assets/notifeasearch.png" target="_blank" />
+    <img alt="getURL" src="https://github.com/muKaustav/notif-ease/blob/main/assets/notifeasearch.png?raw=true" target="_blank" />
 </p>
 
 <br/>
