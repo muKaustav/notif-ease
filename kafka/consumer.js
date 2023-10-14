@@ -3,7 +3,7 @@ const sendMail = require('../utils/sendMail')
 
 const kafka = new Kafka({
     clientId: 'my-app',
-    brokers: ['127.0.0.1:9092']
+    brokers: ['192.168.0.100:9092']
 })
 
 const consumer = kafka.consumer({

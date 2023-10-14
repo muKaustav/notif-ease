@@ -3,7 +3,8 @@ const notifModel = require('../models/notif')
 
 let sendMail = (email, message, notif_id) => {
     let Transport = nodemailer.createTransport({
-        service: "Gmail",
+        host: "smtp-relay.brevo.com",
+        port: 587,
         auth: {
             user: process.env.AUTH_EMAIL,
             pass: process.env.AUTH_PASSWORD
@@ -11,7 +12,7 @@ let sendMail = (email, message, notif_id) => {
     })
 
     let mailOptions = {
-        from: "Hostel Bazaar",
+        from: process.env.SMTP_EMAIL,
         to: email,
         subject: "Hostel Bazaar | Daily Checkup",
         html: message
